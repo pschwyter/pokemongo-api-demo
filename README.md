@@ -4,6 +4,14 @@
  * includes protobuf file
  * ugly code
 
+# Installation & Usage
+
+ * requires python 2 (recommend `2.7.9`) and python package manager `pip`
+ * create an account on [pokemon trainer club](https://sso.pokemon.com/sso/login?locale=en&service=https://www.pokemon.com/us/pokemon-trainer-club/caslogin) to use (in case account gets banned)
+ * clone down repo, switch to `simulation` branch
+ * `pip install -r requirements.txt` to install dependencies
+ * to run the script: main.py --debug -u POKEMON_TRAINER_USERNAME -p POKEMON_TRAINER_PASSWORD --location "1 King St, Toronto"
+
 ## Demo
 
     $ python2 main.py --debug -u tejado -p 1234 --location "New York, Washington Square"
