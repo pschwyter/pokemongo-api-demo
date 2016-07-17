@@ -10,7 +10,7 @@
  * create an account on [pokemon trainer club](https://sso.pokemon.com/sso/login?locale=en&service=https://www.pokemon.com/us/pokemon-trainer-club/caslogin) to use (in case account gets banned)
  * clone down repo, switch to `simulation` branch
  * `pip install -r requirements.txt` to install dependencies
- * to run the script: `main.py --debug -u POKEMON_TRAINER_USERNAME -p POKEMON_TRAINER_PASSWORD --location "1 King St, Toronto"`
+ * to run the script: `main.py -u POKEMON_TRAINER_USERNAME -p POKEMON_TRAINER_PASSWORD --location "1 King St, Toronto"`
 
 ## Demo
 
